@@ -1,7 +1,8 @@
 package composition_inheritance;
-// Abstract base class for CompensationModel
+// base class for CompensationModel
 public abstract class CompensationModel {
-    public abstract double earnings();
+    public double earnings(){
+        return 0;
 }
 
 // CommissionCompensationModel class
