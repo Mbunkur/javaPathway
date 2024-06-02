@@ -3,7 +3,6 @@ package AccountsPayableSystem;
 import payroll.Date;
 
 public class HourlyEmployee extends Employee {
-    // Other attributes and methods remain the same
     private double wage; // wage per hour
     private double hours; // hours worked for week
 
