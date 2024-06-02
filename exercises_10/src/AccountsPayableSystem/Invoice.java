@@ -1,5 +1,4 @@
-// Fig. 10.12: Invoice.java
-// Invoice class that implements Payable.
+
 package AccountsPayableSystem;
 public class Invoice implements Payable {
    private final String partNumber; 
