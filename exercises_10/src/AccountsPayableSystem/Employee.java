@@ -28,11 +28,9 @@ public class Employee implements Payable {
          getFirstName(), getLastName(), getSocialSecurityNumber());
    }
 
-   // abstract method must be overridden by concrete subclasses
    public double getPaymentAmount(){
       return 0;
-   }; // no implementation here
+   }; 
 
-   // implementing getPaymentAmount here enables the entire Employee
 } 
 
